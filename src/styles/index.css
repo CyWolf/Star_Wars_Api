@@ -1,0 +1,49 @@
+/* Background image */
+
+body { 
+  background: url(./assets/images/Star-Wars-wallpaper-1920x1080.jpg) no-repeat center center fixed #000; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Link style */
+
+a:link {
+  text-decoration: none;
+}
+
+/* Star Wars font */
+
+@font-face {
+  font-family: Starjedi;
+  src: url(../styles/assets/fonts/Starjedi.ttf)
+}
+@font-face {
+  font-family: Starjhol;
+  src: url(../styles/assets/fonts/Starjhol.ttf)
+}
+.font-family-sw {
+  font-family: Starjedi;
+}
+.font-family-swh {
+  font-family: Starjhol;
+}
+.nav-text-color {
+  color: #FFE81F;
+}
+.nav-text-color-a {
+  color: #000000;
+}
+
+/* Buttons*/
+
+.btn-warning {
+background-color: #FFE81F;
+color:rgb(0, 0, 0);
+border-color:#FFE81F;
+}
+.dib-size {
+  font-size: 12px;
+}
